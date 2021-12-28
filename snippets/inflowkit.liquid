@@ -1,0 +1,34 @@
+{%- comment -%}1.0.0{%- endcomment -%} 
+<script>
+    (()=>{
+      try {
+        const firstPath = window.location.pathname.split("/")[1];
+        const in_cid = "{{ customer.id }}";
+        const in_email = "{{ customer.email }}";
+        if (
+          firstPath === "a" ||
+          firstPath === "apps" ||
+          firstPath === "community" ||
+          firstPath === "tools"
+        ) {
+          //Do nothing
+        } else {
+          const customer_id = localStorage.getItem("in_cid");
+          if (customer_id === in_cid) {
+            localStorage.setItem("in_value", "");
+            //Do nothing
+          } else {
+            localStorage.setItem("in_cid", in_cid);
+            localStorage.setItem(
+              "in_email",
+              in_email
+            );
+            localStorage.setItem("in_value", "reload");
+          }
+        }
+      } catch (error) {
+        //error
+      }
+})()
+   
+</script>

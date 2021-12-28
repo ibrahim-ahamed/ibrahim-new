@@ -1,0 +1,131 @@
+{
+  "current": {
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo_width": 100,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "faq-items": {
+        "type": "faq-items",
+        "blocks": {
+          "4cf6bf64-dcd0-41c6-a225-77e41ffe6f70": {
+            "type": "faqww",
+            "settings": {
+              "heading_title": "hqwsqahsahsh",
+              "heading_description": "<p>hhqwsqahsahshhqwsqahsahshhqwsqahsahshhqwsqahsahshhqwsqahsahshqwsqahsahsh<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "4cf6bf64-dcd0-41c6-a225-77e41ffe6f70"
+        ],
+        "settings": {
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Sign up to our emails",
+          "show_social": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      },
+      "product-notification-popup": {
+        "type": "product-notification-popup",
+        "blocks": {
+          "88cf13bf-3de5-4ae6-86fa-21792807ec77": {
+            "type": "sales-product-popup",
+            "settings": {
+              "selectedProduct": "2020-women-watches-bracelet-set-starry-sky-ladies-bracelet-watch-casual-leather-quartz-wristwatch-clock-relogio-feminino"
+            }
+          },
+          "6b8dbd49-0ccc-4374-ba19-80d15f6c37b8": {
+            "type": "sales-product-popup",
+            "settings": {
+              "selectedProduct": "belushi-top-brand-watch-men-stainless-steel-business-date-clock-waterproof-luminous-watches-mens-luxury-sport-quartz-wrist-watch"
+            }
+          },
+          "a1cd371c-39d7-42ce-a4a4-a2b23ac1a5f3": {
+            "type": "sales-product-popup",
+            "settings": {
+              "selectedProduct": "men-watches-2021-luxury-male-elegant-ultra-thin-watch-men-business-stainless-steel-mesh-quartz-watch-relogio-masculino-hot-sale"
+            }
+          },
+          "dfff19e8-6946-4f84-844e-8f1b76879a85": {
+            "type": "sales-product-popup",
+            "settings": {
+              "selectedProduct": "curren-casual-sport-watches-for-men-blue-top-brand-luxury-military-leather-wrist-watch-man-clock-fashion-chronograph-wristwatch"
+            }
+          },
+          "4d9f6075-ccc7-4c86-ba97-2fdff96c4c02": {
+            "type": "sales-product-popup",
+            "settings": {
+              "selectedProduct": "naviforce-men-military-sport-wrist-watch-gold-quartz-steel-waterproof-dual-display-male-clock-watches-relogio-masculino-9163"
+            }
+          },
+          "3d91e2b2-390d-4b26-953e-7a8d77b82db1": {
+            "type": "sales-product-popup",
+            "settings": {
+              "selectedProduct": "belushi-top-brand-watch-men-stainless-steel-business-date-clock-waterproof-luminous-watches-mens-luxury-sport-quartz-wrist-watch"
+            }
+          }
+        },
+        "block_order": [
+          "88cf13bf-3de5-4ae6-86fa-21792807ec77",
+          "6b8dbd49-0ccc-4374-ba19-80d15f6c37b8",
+          "a1cd371c-39d7-42ce-a4a4-a2b23ac1a5f3",
+          "dfff19e8-6946-4f84-844e-8f1b76879a85",
+          "4d9f6075-ccc7-4c86-ba97-2fdff96c4c02",
+          "3d91e2b2-390d-4b26-953e-7a8d77b82db1"
+        ],
+        "settings": {
+          "maximumTime": 1000,
+          "minimumTime": 2
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
