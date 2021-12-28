@@ -79,11 +79,18 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "164069959452ab017e": {
+      "type": "faq-items",
+      "settings": {
+        "columes": 3
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "164069959452ab017e"
   ]
 }
